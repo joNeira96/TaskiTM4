@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Gestor de Tareas</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+<div class="container"></div>
+  <h1>Gestor de Tareas</h1>
+ <h2>Ingrese una tarea y duración en días</h2>
+  <input type="text" id="registroTarea" placeholder="Descripción">
+<input type="number" id="duracionTarea" placeholder="Duración (días)" min="1">
+<button id="agregarTarea">Agregar</button>
+
+<button id="limpiarLista">Limpiar</button>
+
+<ul id="listaTarea"></ul>
+<p id="estadoCarga"></p>
+
+ <h3>Contenido del localStorage</h3>
+  <pre id="storage"></pre>
+
+</div>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

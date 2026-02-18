@@ -1,0 +1,97 @@
+/* Reset básico */
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Body */
+body {
+  background-color: #f4f6f8;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Contenedor principal */
+.container {
+  max-width: 600px;
+  margin: auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Título */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Inputs y botones */
+input,
+button {
+  padding: 8px;
+  margin: 5px 0;
+}
+
+/* Botones */
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+
+#agregarTarea {
+  background-color: #4caf50;
+  color: white;
+}
+
+#cargarApi {
+  background-color: #2196f3;
+  color: white;
+}
+
+#limpiarLista {
+  background-color: #f44336;
+  color: white;
+}
+
+/* Lista de tareas */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: #eeeeee;
+  padding: 8px;
+  margin-bottom: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 4px;
+}
+
+/* Botón eliminar */
+li button {
+  background-color: #d32f2f;
+  color: white;
+  padding: 5px 8px;
+}
+
+/* Estado de carga */
+#estadoCarga {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #555;
+}
+
+/* Vista del localStorage */
+#storage {
+  background-color: #fafafa;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 15px;
+  font-size: 12px;
+  overflow-x: auto;
+}
